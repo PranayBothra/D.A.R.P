@@ -20,7 +20,7 @@ Users can dynamically adjust hyperparameters and instantly visualize how those c
 
 ```mermaid
 flowchart TD
-    A["datasets.py <br> Data Pipeline"] --->|Synthetic Data| B["models.py <br> Pure NumPy Engine"]
+    A["datasets.py <br> Data Pipeline"] --->|Synthetic Data| B["models.py <br> NumPy Engine"]
     B --->|Predictions| C["eval.py <br> Evaluation Bridge"]
     C --->|Visuals & Metrics| D["app.py & pages/ <br> Frontend"]
     
