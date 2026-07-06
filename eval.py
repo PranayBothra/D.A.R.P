@@ -21,7 +21,7 @@ DISTINCT_COLORS = [
 ]
 
 # Plot the decision regions together with the training data
-def plot_decision_boundary_fast(X, y, clf, ax, resolution=60):
+def plot_decision_boundary_fast(X, y, clf, ax, resolution=40):
     # Determine the plotting limits with a small padding
     x_min, x_max = X[:, 0].min() - 0.5, X[:, 0].max() + 0.5
     y_min, y_max = X[:, 1].min() - 0.5, X[:, 1].max() + 0.5

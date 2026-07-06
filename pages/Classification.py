@@ -41,12 +41,6 @@ with st.sidebar.expander("Dataset Settings", expanded=True):
         100
     )
 
-    resolution = st.slider(
-        "Decision Boundary Resolution",
-        20,
-        150,
-        60
-    )
 
 datasets = get_classification_datasets(n_samples)
 selected_dataset = {
@@ -124,7 +118,7 @@ if mode == "Run Model":
     if st.button("Run Model", use_container_width=True):
         from eval import plot_decision_boundary_fast,_fit_and_plot,model_eval
         with st.spinner("Running model..."):
-            for fig, results in model_eval(model, datasets=selected_dataset, resolution=resolution):
+            for fig, results in model_eval(model, datasets=selected_dataset):
                 st.pyplot(fig)
                 plt.close(fig)
                 
@@ -240,7 +234,7 @@ else:
             import pandas as pd
             
             # Classification generator yields a figure and a results dict per dataset
-            for fig, results in model_eval(models_to_run, datasets=selected_dataset, resolution=resolution):
+            for fig, results in model_eval(models_to_run, datasets=selected_dataset):
                 
                 # 1. Render the plot for the current dataset
                 st.pyplot(fig)
