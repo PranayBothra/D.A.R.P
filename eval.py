@@ -129,7 +129,7 @@ def _fit_and_plot(ax, clf, X_train, y_train, X_test, y_test, title, resolution):
 
 
 # Evaluate one or more models on one or more datasets
-def model_eval(modele, datasets, resolution=60, max_cols=2):
+def model_eval(modele, datasets, resolution=40, max_cols=2):
     results = {}
 
     # Compare multiple models across each dataset

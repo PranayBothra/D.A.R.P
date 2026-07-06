@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="ML Playground | From Scratch",
+    page_title="D.A.R.Pgit | Dynamic Algorithm Rendering Platform",
     layout="wide"
 )
 
