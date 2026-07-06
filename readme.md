@@ -2,8 +2,8 @@
 <h3 align="center">A Deterministic, NumPy Engine for Machine Learning Diagnostics and Visualization</h3>
 <br>
 <div align="center">
-  <a href="YOUR_STREAMLIT_URL_HERE">
-    <img src="https://img.shields.io/badge/Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo" />
+  <a href="https://darpml.streamlit.app/">
+    <img src="https://img.shields.io/badge/Launch_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo" />
   </a>
   </div>
 <br>
