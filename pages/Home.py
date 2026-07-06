@@ -6,7 +6,7 @@ PROJECT_ACRONYM = "D.A.R.P."
 PROJECT_FULL_NAME = "Dynamic Algorithm Rendering Platform"
 
 st.set_page_config(
-    page_title=f"{PROJECT_ACRONYM} | Pure NumPy",
+    page_title=f"{PROJECT_ACRONYM} | {PROJECT_FULL_NAME}",
     layout="wide"
 )
 
