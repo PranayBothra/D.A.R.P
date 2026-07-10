@@ -7,7 +7,7 @@
   </a>
   </div>
 <br>
-**Overview:** D.A.R.P. is an interactive machine learning environment designed for the strict deterministic evaluation and visual rendering of classical ML algorithms. Built to bypass the hidden abstractions of high-level APIs, the platform provides a transparent interface to directly observe algorithm mechanics, distance metrics, and gradient calculations. 
+<b>Overview:</b> D.A.R.P. is an interactive machine learning environment designed for the strict deterministic evaluation and visual rendering of classical ML algorithms. Built to bypass the hidden abstractions of high-level APIs, the platform provides a transparent interface to directly observe algorithm mechanics, distance metrics, and gradient calculations. 
 
 Users can dynamically adjust hyperparameters and instantly visualize how those changes impact model behavior, decision splits, and final evaluation metrics.
 <div align="center">
