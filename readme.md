@@ -19,6 +19,7 @@ Users can dynamically adjust hyperparameters and instantly visualize how those c
 </div>
 
 <br>
+
 ### Core Capabilities
 
 | Architecture & Features | Technical Implementation |
